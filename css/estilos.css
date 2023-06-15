@@ -57,10 +57,10 @@ html {
 }
 
 .hero .welcome h1 {
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 .hero .welcome h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .hero .welcome h1,
@@ -170,7 +170,7 @@ html {
 
 .nosotros .text-nosotros {
   color: #fff;
-  text-align: center;
+  text-align: justify;
   margin-bottom: 1.5rem;
 }
 
