@@ -1,0 +1,84 @@
+.container {
+  padding: 1rem;
+  width: 100%;
+}
+.hero {
+  height: 100vh;
+  background-image: url(../../../../assets/media/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.navbar .logo img {
+  width: 4.5rem;
+}
+
+.navbar .menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.hero .welcome {
+  width: 78%;
+  height: 80%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero .welcome h1 {
+  font-size: 3rem;
+}
+.hero .welcome h2 {
+  font-size: 2rem;
+}
+
+.hero .welcome h1,
+.hero .welcome h2 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.hero .welcome .btn {
+  border: 1px solid #cc00ff;
+  border-radius: 3.125rem;
+  padding: 0.8rem 2.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  transition: all 300ms ease-out;
+}
+
+.welcome .btn:hover {
+  transform: scale(1.1);
+  background: #cc00ff;
+  color: #fff;
+  box-shadow: 1px 13px 42px -8px rgba(204, 0, 255, 0.75);
+}
+@media screen and (max-width: 412px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

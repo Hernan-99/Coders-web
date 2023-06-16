@@ -1,0 +1,86 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: inherit;
+}
+/* de 375px para arriba el color de p va a ser #3d3d3d*/
+/* @media screen and (min-width: 375px) {
+  .container-contact p {
+    color: #3d3d3d;
+    text-align: center;
+  }
+} */
+
+@media screen and (max-width: 1028px) {
+  .card-trabajos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-trabajos figure {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card-trabajos figure img {
+    width: 100%;
+  }
+
+  .card-trabajos .text {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-contact form {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .container-contact form {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container-contact form {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .content-desc {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* 
+Smartphone grande: 720 x 1280 px.
+Ordenador portátil medio: 1366 x 768 px.
+Ordenador de escritorio medio: 1440 x 900 px.
+PC de escritorio grande: 1920 x 1080 px.
+*/

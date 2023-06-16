@@ -1,0 +1,134 @@
+footer {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  background: #100b18;
+}
+
+.container-contact form {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  width: 90%;
+}
+
+.container-contact form h4 {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.3rem;
+}
+
+.container-contact form label {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.container-contact form input {
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  border: none;
+  outline: none;
+}
+
+.container-contact form textarea {
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  resize: none;
+  border: none;
+  outline: none;
+}
+.container-contact form input,
+.container-contact form textarea {
+  margin-bottom: 0.5rem;
+}
+
+.container-contact form input[type="submit"] {
+  background: #a340ac;
+  transition: all 250ms ease-in-out;
+  margin-bottom: 2rem;
+}
+.container-contact form input[type="submit"]:hover {
+  background: #f25fff;
+  cursor: pointer;
+  color: #fff;
+}
+/* ----------------------- */
+.contact-form-error {
+  margin-top: -1rem;
+  font-size: 80%;
+  background-color: #ff5e5e;
+  color: #fff;
+  transition: all 800ms ease;
+}
+.contact-form legend,
+.contact-form-response {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.contact-form input::placeholder {
+  color: #1d1d1d;
+}
+
+.contact-form [required]:valid {
+  border: solid 1px #80ff66;
+}
+
+.contact-form [required]:invalid {
+  border: solid 1px #ff5e5e;
+}
+.contact-form-error.is-active {
+  display: block;
+  animation: show-msj 900ms 1 normal 0s ease-out both;
+}
+
+.none {
+  display: none;
+}
+/* ----------------------- */
+.content-logo-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.content-logo-footer img {
+  width: 50px;
+  margin-bottom: 0.3rem;
+}
+
+.container-contact hr {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.container-contact p {
+  color: #fff;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .container-contact form {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .container-contact form {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container-contact form {
+    width: 50%;
+  }
+}

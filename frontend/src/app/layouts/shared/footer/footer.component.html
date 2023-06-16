@@ -1,0 +1,68 @@
+<footer>
+  <section class="container-contact">
+    <form
+      class="contact-form"
+      action="https://formsubmit.co/9coders9@gmail.com"
+      method="POST"
+      id="form"
+    >
+      <h4>Contactanos</h4>
+      <legend style="color: #fff; margin-bottom: 1rem">
+        Envianos tu consulta
+      </legend>
+      <label for="nombre">Nombre</label>
+      <input
+        id="nombre"
+        type="text"
+        name="nombre"
+        placeholder="Tu nombre"
+        title="Este campo solo acepta letras y espacios"
+        pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+        required
+      />
+      <label for="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        name="correo"
+        title="Introduce un correo valido"
+        pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+        placeholder="ejemplo@correo.com"
+        required
+      />
+      <label for="msj">Mensaje</label>
+      <textarea
+        id="msj"
+        name="comentarios"
+        cols="50"
+        rows="5"
+        data-pattern=" ^.{1,255}$"
+        title="El comentario no debe exceder los 255 caracteres"
+        placeholder="Consulta"
+        required
+      ></textarea>
+      <input type="submit" value="Enviar" />
+      <div class="contact-form-loader none">
+        <img src="../../../../assets/media/tail-spin.svg" alt="Cargando" />
+      </div>
+
+      <div class="contact-form-response none">
+        <p>Los datos ya han sido enviados</p>
+      </div>
+    </form>
+
+    <figure class="content-logo-footer">
+      <img src="../../../../assets/media/coders.png" alt="logo" />
+      <figcaption>Copyright &#169; 2022-2023 Coders</figcaption>
+    </figure>
+    <hr />
+    <article class="content-desc">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga esse
+        temporibus quidem. Et unde laudantium magnam cumque incidunt nobis alias
+        ad eveniet asperiores mollitia quisquam odio, consequuntur blanditiis
+        eum quia?
+      </p>
+    </article>
+  </section>
+</footer>

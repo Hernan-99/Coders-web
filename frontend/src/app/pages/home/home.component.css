@@ -1,0 +1,107 @@
+/* ------------------------------------------------------------ */
+/* SERVICIOS */
+/* ------------------------------------------------------------ */
+.services {
+  background-color: #100b18;
+}
+
+.section-title {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.card {
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+}
+
+/* .card .card-body h3 {
+} */
+.card .card-body h3,
+.card .card-body p,
+.card .card-header {
+  text-align: center;
+}
+
+.card .card-body h3,
+.card .card-body p {
+  color: #fff;
+}
+
+.card .card-header {
+  color: #f157ff;
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+
+/* ------------------------------------------------------------ */
+/* NOSOTROS */
+/* ------------------------------------------------------------ */
+
+.container-info {
+  margin-bottom: 8rem;
+}
+
+.nosotros {
+  background-image: url(../../../assets/media/textura.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0;
+}
+
+.nosotros .btns {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.btns .btn {
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0.1rem;
+  padding: 0.8rem;
+  background: rgb(184, 0, 255);
+  color: #fff;
+  transition: all 300ms ease-out;
+  cursor: pointer;
+  text-align: center;
+}
+
+.content-desc {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nosotros .text-nosotros {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* ------------------------------------------ */
+.card-trabajos {
+  padding: 0 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+}
+.card-trabajos figure {
+  width: 50%;
+}
+.card-trabajos figure img {
+  width: 100%;
+}
+
+.card-trabajos .text {
+  width: 40%;
+  text-align: justify;
+}
+/* ------------------------------------------ */
